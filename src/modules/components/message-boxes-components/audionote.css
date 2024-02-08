@@ -1,0 +1,26 @@
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  background: #ff9500 !important;
+}
+
+.rhap_controls-section {
+  flex-grow: 0 !important;
+}
+
+.rhap_container {
+  padding: 10px 0px !important;
+  box-shadow: none !important;
+}
+
+.rhap_play-pause-button {
+  background: #ff9500 !important;
+  border-radius: 50% !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.rhap_container {
+  background-color: transparent;
+}

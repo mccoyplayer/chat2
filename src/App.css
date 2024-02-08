@@ -1,0 +1,75 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  display: block;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+.App {}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.customHeight {
+  height: calc(100% - 65px);
+}
+
+.customScroll {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.msgCard a {
+  color: #007aff;
+}
+
+.customBg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.feed-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.gifContainer {
+  width: 100% !important;
+}
+
+.gifSearchBox {
+  position: relative;
+}
+
+.gifSearchBox input {
+  border-radius: 10px !important;
+  border: 1px solid #d0d8e2 !important;
+  padding: 10px 10px 10px 40px !important;
+  color: #d0d8e2 !important;
+}
+
+.gifSearchBox:before {
+  content: url(./assets/search.png);
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  height: 24px;
+  width: 24px;
+  overflow: visible;
+  display: inline-block;
+  line-height: 24px;
+  z-index: 1;
+}
