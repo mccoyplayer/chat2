@@ -29,7 +29,7 @@
 ## Clone repo
 
 ```shell
-git clone git@github.com:NateshR/LikeMinds-Web-GroupChat-SX.git
+git clone git@github.com:LikeMindsCommunity/likeminds-chat-reactJS-traya.git
 ```
 
 ## NPM
